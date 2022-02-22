@@ -1,38 +1,193 @@
-.App {
+body {
+  background: linear-gradient(to bottom right, #19121d, #210b28);
+}
+.backmodal{
+  position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 50; background: rgba(0, 0, 0, 0.8);
+}
+.modal {
+  background-color: #ffffff;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
+.container {
+  max-width: 360px;
+  margin: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 5px;
+  color: #0B070D;
+  display: grid;
+}
+/*------------------------\1/------------------------*/
+.first {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.call {
+  font-size: 1.2em;
+  font-family: monospace;
+  font-weight: 500;
+  color:#0B070D;
+}
+.close {
+  text-align: right;
+  font-family: monospace;
+  color: #CCCCCC;
+}
+/*------------------------\2/------------------------*/
+.second {
+  margin-top: 10px;
+  width:100%;
+  background: linear-gradient(to bottom right, #ff8cd980, #ce92ff57);
+}
+.thecoin{
+  padding: 10px;
+  justify-content: center;
+}
+.coin {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.coin img{
+  width: 13vh;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.coinname {
+  text-align: center;
+  font-weight: 600;
+  font-family: monospace;
+  color:#0B070D;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/*------------------------\3/------------------------*/
+.third {
+  margin-top: 12px;
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
+}
+.buyandsell {
+  padding-left: 10px;
+  color: #626465;
+  font-weight: 500;
+  font-family: monospace;
+  display: flex;
+  align-items: center;
+}
+.moneyandminutes{
+  padding-right: 10px;
+  display: flex;
+  align-items: center;
+}
+.money {
+  color: #3a3a3a;
+  padding: 5px;
+  font-family: monospace;
+  border: 2px solid #626465;
+  border-radius: 8px 8px 8px 8px;
+  margin: 2%;
+  width: 5rem;
+}
+.minutes {
+  color: #3a3a3a;
+  padding: 5px;
+  font-family: monospace;
+  border: 2px solid #626465;
+  border-radius: 8px 8px 8px 8px;
+  margin: 2%;
+  width: 5rem;
+}
+.comprar{
+  color: #9191bd;
+  font-size: 2.35vh;
+  padding-left:2%;
+}
+.vender{
+  color: #cf79bd;
+  font-size: 2.35vh;
+  padding-left:2%;
+}
+/*------------------------\4/------------------------*/
+.fourth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+  margin-right: 2%;
+  /*width:100%;*/
+}
+.aditional {
+  min-height: 3.5em;
+  width: 12rem;
+  color: #3a3a3a;
+  padding: 5px;
+  font-family: monospace;
+  border: 2px solid #626465;
+  border-radius: 8px 8px 8px 8px;
+}
+/*------------------------\5/------------------------*/
+.fifth {
+  margin-top: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.msg {
+  width:100%;
+  text-align: center;
+  color: #3a3a3a;
+  padding: 6px;
+  background-color: #9bffb4ab;
+  font-size: 2vh;
+  font-family: monospace;
+  font-weight: 500;
+  border: 2px solid #626465;
+  border-radius: 8px 8px 8px 8px;
+}
+/*------------------------\6/------------------------*/
+.sixth {
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 18px;
+  margin-bottom: 10px;
+}
+.number{
+  height: 2.1em;
+  justify-content: flex-end;
+  color: #194b1c;
+  width: 6rem;
+  font-family: monospace;
+  border: 2px solid #2E7D32;
+  border-radius: 4px 4px 4px 4px;
+  margin: 1%;
+}
+.button{
+  height: 2.4em;
+  padding:0%;
+  margin: 1%;
+}
+/*----------------------\style/----------------------*/
+.badge {
+  color: #626465;
+}
+.coloring {
+  color: #626465;
+  font-family: monospace;
+  font-weight: 500;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+
+
+
+
+
+
+
+
+
+
