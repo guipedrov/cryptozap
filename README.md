@@ -1,6 +1,6 @@
 # CryptoZap | Cotações de criptomoedas com ferramenta de mensagem via WhatsApp
 
-Projeto que combina a listagem das 200 maiores criptomoedas do mercado, atualizada em tempo real o uso da [API da CoinGecko](https://www.coingecko.com/) e integrado com a automação de mensagens para WhatsApp. Copie esse projeto como desejar e expanda-o usando a hashtag #cryptozap (e #guipedrov para dar aquela força).
+Projeto que combina a listagem das 200 maiores criptomoedas do mercado, atualizada em tempo real o uso da [API da CoinGecko](https://www.coingecko.com/) e integrado com a automação de mensagens para WhatsApp. Copie esse projeto como desejar e expanda-o usando a hashtag **#cryptozap** (e **#guipedrov** para dar aquela força).
 
 🚀 SPA online: google.com
 
