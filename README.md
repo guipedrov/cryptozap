@@ -2,7 +2,7 @@
 
 Projeto que combina a listagem das 200 maiores criptomoedas do mercado, atualizada em tempo real o uso da [API da CoinGecko](https://www.coingecko.com/) e integrado com a automação de mensagens para WhatsApp. Copie esse projeto como desejar e expanda-o usando a hashtag **#cryptozap** (e **#guipedrov** para dar aquela força).
 
-🚀 SPA online: google.com
+🚀 Web App online: https://crypto-zap.web.app/
 
 🧑‍💼Publicação no LinkedIn: google.com
 
@@ -10,6 +10,6 @@ Projeto que combina a listagem das 200 maiores criptomoedas do mercado, atualiza
 
 ## Mais informações:
 
-👨‍💼[Conecte-se ao meu linkedin](google.com)
+👨‍💼[Conecte-se ao meu linkedin](https://www.linkedin.com/in/guilherme-pedro-velho-44232932/)
 
-📞[Fale comigo no WhatsApp](google.com)
+📞[Fale comigo no WhatsApp](https://api.whatsapp.com/send/?phone=%2B5522999899829&text&app_absent=0)
