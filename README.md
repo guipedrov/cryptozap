@@ -10,6 +10,6 @@ Projeto que combina a listagem das 200 maiores criptomoedas do mercado, atualiza
 
 ## Mais informações:
 
-👨‍💼[Conecte-se ao meu linkedin](https://www.linkedin.com/in/guipedrov/)
+👨‍💼[Conecte-se ao meu LinkedIn](https://www.linkedin.com/in/guipedrov/)
 
 📞[Fale comigo no WhatsApp](https://api.whatsapp.com/send/?phone=%2B5522999899829&text&app_absent=0)
