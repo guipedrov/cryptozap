@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(to bottom right, #19121d, #210b28);
+  background: linear-gradient(to bottom right, #19121d, #4f205e);
 }
 .backmodal{
   position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 50; background: rgba(0, 0, 0, 0.8);

@@ -26,7 +26,7 @@ const Coin = ({
   const useStyles = createUseStyles({
     tableBody: {
       maxWidth: 1330,
-      background: "#0B070D",
+      background: "#0f0712",
     },
     text: {
       color: '#FFFFFF',
@@ -53,7 +53,7 @@ const Coin = ({
 
   return (
     <TableContainer component={Paper}>
-      <Table sx={{ minWidth: 700 }} aria-label="customized table">
+      <Table sx={{ width: '100%' }} aria-label="customized table">
         <TableBody className={classes.tableBody}>
           {/* Textos: */}
           <TableCell component="th" scope="row">
@@ -79,7 +79,7 @@ const Coin = ({
             {price.toLocaleString(undefined, {
               minimumFractionDigits: 2,
               maximumFractionDigits: 9,
-            })} (preço)
+            }).replaceAll(" ", ".")} (preço)
             </h0>
             </Grid>
           </TableCell>

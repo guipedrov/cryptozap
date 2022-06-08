@@ -23,7 +23,7 @@ const ModalWhatsapp = ({ dados, offModal }) => {
         " " +
         valor +
         ",00 dólares em " +
-        dados.name +
+        dados.name + " ("+dados.symbol+")"+
         " em no máximo " +
         periodo +
         " minuto(s) a contar dessa mensagem. " +
